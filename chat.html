@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat - Ajuda.me</title>
+  <link rel="stylesheet" href="src/assets/css.css">
+</head>
+<body>
+
+<div class="nickname_container" id="nick">
+
+  <span>Digite seu nome:</span>
+  <form id="submit"><input type="text" id="nickname" /></form>
+  <span class="continue">(Pressione enter para continuar)</span>
+
+</div>
+
+<div id="chat" hidden>
+
+  <div class="menu">
+      <div class="name" id="name">Alex</div>
+      <div class="last" id="time">18:09</div>
+  </div>
+
+  <ol class="chat">
+
+  </ol>
+  <div id='bottom'></div>
+  <input class="textarea" type="text" placeholder="Escreva aqui! (Enter envia a mensagem)" id="textarea" />
+</div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/socket.io-client/socket.io.js"></script>
+    <script src="src/assets/js.js"></script>
+</body>
+</html>

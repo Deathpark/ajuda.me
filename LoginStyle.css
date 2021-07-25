@@ -1,0 +1,86 @@
+body{
+    background-image: url(img/bonecoFeio.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: 2;
+}
+.login{
+    display: flex;
+    grid-column: 1;
+    background-color: gray;
+    margin-top: 10vw;
+    margin-left: 20vw;
+    margin-right: 15vw;
+    padding-bottom: 2vw;
+}
+.login h2{
+    align-content: flex-start;
+    margin: 2%;
+    padding-left: 1vw;
+    font-size: 3vw;
+}
+.login label{
+    margin-top: 0.5vw;
+    padding-left: 1vw;
+    font-size: 2vw;
+}
+.containerFlex{
+    display: flex;
+    justify-content: flex-end;
+}
+p>#botaol{
+    margin: 0.2vw;
+    height: 2.5vw;
+}
+#senhal, #nomel{
+    width: 25vw;
+    padding-bottom: 0.5vw;    
+    margin-bottom: 2vw;
+}
+#senha, #nome{
+    width: 25vw;
+    padding-bottom: 0.5vw;    
+    margin-bottom: 2vw;
+}
+.cadastro{
+    display: flex;
+    grid-column: 2;
+    background-color: gray;
+    margin-top: 10vw;
+    margin-right: 2vw;
+    padding-bottom: 2vw;
+}
+.cadastro h2{
+    align-content: flex-start;
+    margin: 2%;
+    padding-left: 1vw;
+    font-size: 3vw;
+}
+.cadastro label{
+    padding-top: 2vw;
+    padding-left: 2vw;
+    font-size: 2vw;
+}
+input{
+    font-size: 1.8vw;
+}
+#cadastro_p{
+    padding-top: 2vw;
+    margin-bottom: 2.5vw;
+}
+p>#botaoc{
+    margin: 0.2vw;
+    height: 2.5vw;
+}
+select{
+    width: 32vw;
+    font-size: 2vw;
+    text-align-last: center;
+    margin-left: 2vw;
+}
+footer{
+    margin-top: 6vw !important;
+}
